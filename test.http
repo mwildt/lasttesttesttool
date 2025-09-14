@@ -1,0 +1,81 @@
+POST localhost:8081/login
+
+###
+POST localhost:8081/login
+
+###
+POST https://sensor.lasttesttest.ohrenpirat.de/login
+
+###
+GET https://sensor.lasttesttest.ohrenpirat.de/logout
+Cookie: sid=yWg_iUuIxDE7tfpLcJYby2G6WvoxaP1NVGOx6lPtUsA
+
+###
+POST https://sensor.lasttesttest.ohrenpirat.de/irgendwas
+
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+< ./static/app.css
+
+
+###
+POST localhost:8081/login
+
+< ./static/app.js
+
+###
+POST localhost:9081/login
+
+###
+GET localhost:8081/logout
+Cookie: sid=7vRhcW8S49cvzY2dDAUZ6QhLgQRV1jkesPjOn4sWoV8
+
+###
+GET localhost:8082/stream
+
+###
+PATCH localhost:8082/reset
+
+###
+POST localhost:8082/auth
+
+###
+POST localhost:8082/auth
+Content-Type: application/json
+{"key": "asldkfjaösf"}
+
+###
+POST localhost:8082/auth
+Content-Type: application/json
+
+{"key": "alsdkjaslafasdvöalvösdflk"}
