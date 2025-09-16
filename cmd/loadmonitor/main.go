@@ -342,6 +342,8 @@ func runSensorEndpoint[T any](sessionStore *session.Store[T], listener *connecti
 
 			if utils.Match("POST::/login", request) {
 				login(writer, request)
+			} else if utils.Match("POST::/api/login", request) {
+				login(writer, request)
 			} else if utils.Match("/logout", request) {
 				logout(writer, request)
 			} else {
